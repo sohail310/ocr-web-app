@@ -1,2 +1,11 @@
 libgl1-mesa-glx
 tesseract-ocr
+libgl1-mesa-glx
+tesseract-ocr
+tesseract-ocr-eng
+tesseract-ocr-hin
+tesseract-ocr-tel
+tesseract-ocr-urd
+tesseract-ocr-tam
+tesseract-ocr-kan
+tesseract-ocr-mal
