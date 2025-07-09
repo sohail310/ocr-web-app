@@ -1,5 +1,3 @@
-# Recreate the updated app.py with camera input after reset
-updated_app_code = """
 import streamlit as st
 import cv2
 import pytesseract
@@ -34,11 +32,3 @@ if image is not None:
 
 # st.markdown("---")
 # st.markdown("👨‍💻 Developed by **Suhail Syed**")
-# """
-
-# Save the updated app.py
-updated_app_path = "/mnt/data/app_camera_input.py"
-with open(updated_app_path, "w") as f:
-    f.write(updated_app_code.strip())
-
-updated_app_path
