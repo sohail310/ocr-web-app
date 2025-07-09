@@ -6,7 +6,7 @@ import numpy as np
 
 # DO NOT set tesseract_cmd on Streamlit Cloud — it uses default Linux path
 
-st.title("🧠 OCR Web App - Text Extraction from Image")
+st.title("🧠 OCR Web App - Text Extraction from Image By Sohail")
 st.markdown("Upload an image and extract printed text using Tesseract OCR engine.")
 
 uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
@@ -21,5 +21,5 @@ if uploaded_file is not None:
     st.text_area("Output", text, height=250)
     st.download_button("📥 Download as .txt", data=text, file_name="extracted_text.txt")
 
-st.markdown("---")
-st.markdown("👨‍💻 Developed by **Suhail Syed**")
+# st.markdown("---")
+# st.markdown("👨‍💻 Developed by **Suhail Syed**")
